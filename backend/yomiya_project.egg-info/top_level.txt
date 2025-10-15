@@ -1,0 +1,7 @@
+AIshit
+configurations
+data
+protocols
+secrets
+test
+utilities

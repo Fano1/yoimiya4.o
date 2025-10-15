@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+AIshit/multimodel.py
+AIshit/pycair.py
+AIshit/vector.py
+configurations/configuration.py
+protocols/protocol.py
+test/test.py
+utilities/sst.py
+utilities/tts.py
+yomiya_project.egg-info/PKG-INFO
+yomiya_project.egg-info/SOURCES.txt
+yomiya_project.egg-info/dependency_links.txt
+yomiya_project.egg-info/requires.txt
+yomiya_project.egg-info/top_level.txt

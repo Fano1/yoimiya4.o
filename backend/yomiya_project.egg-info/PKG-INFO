@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: yomiya-project
+Version: 4.0.0
+Summary: A description of the Yomiya project
+Author-email: Your Name <you@example.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: langchain>=0.0.27

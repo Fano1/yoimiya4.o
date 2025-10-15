@@ -1,0 +1,23 @@
+# YOMIYAPROJECT-VER4.0/pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yomiya-project"
+version = "4.0.0"
+description = "A description of the Yomiya project"
+readme = "README.md"
+authors = [{name = "Your Name", email = "you@example.com"}]
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+dependencies = [
+    "langchain>=0.0.27",
+]
+
+
+[tool.setuptools.packages]
+# This tells setuptools to find all packages and sub-packages
+# starting from the current directory (which is 'backend').
+find = {}
