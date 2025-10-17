@@ -1,0 +1,83 @@
+<Description>
+    Build a complete frontend web application for an interactive anime AI companion using **SolidJS**. 
+    The application should have three main sections:
+    1. 3D model viewer (currently a solid yellow placeholder)
+    2. Input section (text with optional voice-to-text)
+    3. Interactive tab-based chat history system with multiple AI-powered environments
+    
+    The goal is to create a fully functional, anime-inspired, playful, and modular frontend that can later integrate with a backend AI.  
+    No Tailwind, use plain CSS with grid layouts.
+</Description>
+
+<Sections>
+    <Section name="3DModelViewer">
+        <Goal>
+            Display a fully rigged 3D anime girl model (placeholder yellow div for now)
+        </Goal>
+        <Requirements>
+            <Requirement>Currently display a solid yellow div in place of the 3D model</Requirement>
+            <Requirement>Grid placement: right-hand side of the screen</Requirement>
+            <Requirement>Resizable and ready for future VRM model and animation logic</Requirement>
+            <Requirement>Placeholder should clearly show where the 3D model will appear</Requirement>
+        </Requirements>
+    </Section>
+
+    <Section name="InputSection">
+        <Goal>
+            Accept user input in text or voice-to-text form and trigger AI responses
+        </Goal>
+        <Requirements>
+            <Requirement>Text input box with submit button</Requirement>
+            <Requirement>Voice-to-text transcription placeholder</Requirement>
+            <Requirement>Grid placement: bottom row, spanning full width of the viewport</Requirement>
+            <Requirement>Trigger AI response on submit (placeholder logic OK for now)</Requirement>
+        </Requirements>
+    </Section>
+
+    <Section name="ChatHistory">
+        <Goal>
+            Create a tab-based interactive chat system where each tab hosts a different AI-powered environment
+        </Goal>
+        <Requirements>
+            <Requirement>Dynamic creation and removal of tabs like a modern web browser</Requirement>
+            <Requirement>Tabs support multiple types:
+                <Tab type="TextEditor">Editable text/code area for AI interaction</Tab>
+                <Tab type="WebBrowser">Render web pages and open URLs</Tab>
+                <Tab type="ImageRenderer">Display AI-generated images</Tab>
+                <Tab type="ConversationHistory">Show AI/user conversation log</Tab>
+            </Requirement>
+            <Requirement>Tabs support drag-and-drop reordering</Requirement>
+            <Requirement>Tabs maintain independent AI contexts where needed</Requirement>
+            <Requirement>Placeholder content for each tab should be visually distinct (e.g., dashed border, background color)</Requirement>
+            <Requirement>Ability to close tabs and automatically activate another tab if the active tab is closed</Requirement>
+        </Requirements>
+    </Section>
+</Sections>
+
+<OptionalFeatures>
+    <Feature>Animations triggered by chat content or sentiment</Feature>
+    <Feature>Expandable modular architecture for future tab types (e.g., mini-games, code consoles)</Feature>
+    <Feature>Integration-ready with a backend AI (Python FastAPI or other)</Feature>
+    <Feature>Persistent tab state across reloads (optional)</Feature>
+</OptionalFeatures>
+
+<CSSGuidelines>
+    <Guideline>Use CSS Grid for the main layout: 3D model on right, chat on left, input at the bottom</Guideline>
+    <Guideline>Bright, anime-inspired accent colors for each section</Guideline>
+    <Guideline>Tabs should have hover effects, active tab highlights, and close buttons</Guideline>
+    <Guideline>Tab content area should clearly indicate placeholder type</Guideline>
+    <Guideline>Input section should be visually distinct and easy to access</Guideline>
+</CSSGuidelines>
+
+<Tone>
+    Engaging, playful, anime-style aesthetic, interactive UX, easy to extend, maintainable
+</Tone>
+
+<Deliverables>
+    <Deliverable>SolidJS components structured under src/components/InteractiveChatComponent</Deliverable>
+    <Deliverable>Fully functional tab system with dynamic creation, closing, and switching</Deliverable>
+    <Deliverable>Grid layout with placeholder 3D model and input section</Deliverable>
+    <Deliverable>CSS styling for layout, tabs, and placeholders</Deliverable>
+    <Deliverable>Placeholder logic for AI interaction</Deliverable>
+    <Deliverable>Modular architecture ready for future expansion</Deliverable>
+</Deliverables>

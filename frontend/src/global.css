@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent scrollbar from viewport height issues */
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  background: #111;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.modelViewer {
+  background: limegreen;
+  border: 5px solid rgb(181, 36, 36);
+  grid-column: 5 / 13;
+  grid-row: 2 / 12;
+  z-index: 1;
+}
+
+.chatHistory {
+  background: royalblue;
+  border: 5px solid white;
+  grid-column: 1 / 5;
+  grid-row: 2 / 12;
+  padding: 10px;
+}
+
+
+.chatInterface {
+  background: crimson;
+  grid-column: 1 / 13; /* bottom-right corner */
+  grid-row: 12 / 13;
+  border: 5px solid white;
+
+}
+
+.accountLogo {
+  background: rgb(234, 255, 0);
+  grid-column: 12 / 13;
+  grid-row: 1 / 1;
+}
+
